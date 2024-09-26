@@ -8,8 +8,6 @@ Simple script to detect new projects for DA
 1. Install TamperMonkey from here, if you do not have it already:
     https://www.tampermonkey.net/
 
-Make sure TamperMonkey is enabled.
-
 2. Open TamperMonkey Dashboard
 
 3. Click "+" to create a new script
