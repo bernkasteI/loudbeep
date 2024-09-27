@@ -27,10 +27,10 @@
     const observer = new MutationObserver(checkForUpdates);
     observer.observe(document.body, { childList: true, subtree: true });
 
-    // Refresh the page every 2 seconds
+    // Refresh the page every 2 minutes
     setInterval(() => {
         location.reload();
-    }, 2000);
+    }, 120000);
 
     // Initial check
     checkForUpdates();
